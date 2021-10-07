@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jan 14 22:42:42 2021
-
-@author: Udyan Sharma
-"""
 import speech_recognition as sr
 import pyttsx3
 r=sr.Recognizer()
@@ -18,7 +12,7 @@ def recorder():
             voice_in=r.recognize_google(audio)
             print("You:",voice_in)
         except sr.UnknownValueError:
-            print("Xceleron: Sorry, I did not get that.")
+            print("Sorry, I did not get that.")
             eng.say("Sorry, I did not get that.")
             eng.runAndWait()
         except sr.WaitTimeoutError:
