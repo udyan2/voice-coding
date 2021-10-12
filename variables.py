@@ -26,6 +26,9 @@ for element in variable_commands_list:
             break
     else:
         print("Nothing related to variable")
+        eng.say("Nothing related to variable")
+        eng.runAndWait()
+            
 
 
     
