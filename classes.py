@@ -1,7 +1,10 @@
 #Classes
 import record
 import pandas as pd
-
+import pyttsx3
+eng = pyttsx3.init()
+eng.say("This is the Classes module")
+eng.runAndWait()
 import_file_path="classes.xlsx"
 voice_input=record.recorder().lower()
 print(voice_input)
@@ -16,17 +19,13 @@ for element in variable_commands_list:
         if "create a class" in voice_input:
             print(voice_input[19:])
             input_list=voice_input.split()
-            print(lst)
             var_ind=input_list.index("class")
             type_ind=input_list.index("type")
-            val_ind=
-            var_name=input_list[type_ind+1]+" "+input_lst[var_ind+1]
-            
+            class_name=input_list[type_ind+1]+" "+input_list[var_ind+1]
         print("Class command detected")
     else:
         print("Nothing related to Class")
-    
 print("Code Block: ")
 
-print(command)
+print(class_name)
 
