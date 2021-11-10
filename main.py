@@ -4,7 +4,7 @@ import record
 import pyttsx3
 eng = pyttsx3.init()
 print("Welcome to Voice Coding!")
-eng.say("Welcome to Voice Coding!")
+eng.say("Welcome to Voie Coding!")
 eng.runAndWait()
 print("Speak something to write your code")
 eng.say("Speak to write your code")
