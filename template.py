@@ -27,7 +27,9 @@ def factorial(numval):
 def armstrong():
     armstrong_template='num = int(input("Enter a number: "))\nsum = 0\ntemp = num\nwhile temp > 0:\n\tdigit = temp % 10\n\tsum += digit ** 3\n\ttemp //= 10\nif num == sum:\n\tprint(num,"is an Armstrong number")\nelse: \n\tprint(num,"is not an Armstrong number")'
     return armstrong_template
-
+def multiples():
+    multiples_template='def multiples(m, count): \n\tfor i in range(count):\n\t\tprint(i*m)'
+    return multiples_template
 import_file_path="templates.xlsx"
 voice_input=record.recorder().lower()
 print(voice_input)
@@ -50,6 +52,8 @@ if "template" in voice_input:
             template=power()
         elif "armstrong" in voice_input:
             template=armstrong()
+        elif "multiples" in voice_input:
+            template=multiples()
         elif "factorial" in voice_input:
             input_list=voice_input.split()
             numval=input_list[input_list.index("number")+1]
