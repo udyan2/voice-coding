@@ -34,6 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../ProgramData/Anaconda3" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -99,7 +100,7 @@
       <workItem from="1636132456568" duration="8952000" />
       <workItem from="1636267282539" duration="2038000" />
       <workItem from="1636378745648" duration="949000" />
-      <workItem from="1636379716541" duration="2149000" />
+      <workItem from="1636379716541" duration="5111000" />
     </task>
     <servers />
   </component>
