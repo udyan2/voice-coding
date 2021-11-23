@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aab97e00-7fd3-4feb-a095-b4680e787376" name="Changes" comment="intentss create">
-      <change afterPath="$PROJECT_DIR$/stringcpp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/training.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intentspython.json" beforeDir="false" afterPath="$PROJECT_DIR$/intents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intents.json" beforeDir="false" afterPath="$PROJECT_DIR$/intents.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templatecpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/templatecpp.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/variables.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/variablescpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/variablescpp.py" afterDir="false" />
     </list>
@@ -47,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../ProgramData/Anaconda3" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.training">
     <configuration name="gui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="voice-coding" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,14 +135,38 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="training" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="voice-coding" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.gui" />
       <item itemvalue="Python.record" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.training" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.training" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.gui" />
         <item itemvalue="Python.record" />
@@ -164,7 +187,7 @@
       <workItem from="1636379716541" duration="5111000" />
       <workItem from="1637553125428" duration="837000" />
       <workItem from="1637553989013" duration="244000" />
-      <workItem from="1637615354146" duration="11692000" />
+      <workItem from="1637615354146" duration="14385000" />
     </task>
     <servers />
   </component>

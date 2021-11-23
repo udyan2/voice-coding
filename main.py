@@ -83,7 +83,7 @@ if langinp==1:
         res = get_response(ints, intents)
         if res == 'variables':
             check=variables.enter(msg)
-        elif res == 'templates':
+        elif res == 'template':
             check=template.enter(msg)
         elif res == 'functions':
             check=functions.enter(msg)
@@ -109,7 +109,7 @@ elif langinp==2:
         res = get_response(ints, intents)
         if res == 'variables':
             check=variablescpp.enter(msg)
-        elif res == 'templates':
+        elif res == 'template':
             check=templatecpp.enter(msg)
         elif res == 'functions':
             check=functionscpp.enter(msg)
