@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="aab97e00-7fd3-4feb-a095-b4680e787376" name="Changes" comment="intentss create">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/intents.json" beforeDir="false" afterPath="$PROJECT_DIR$/intents.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templatecpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/templatecpp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/variables.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/variablescpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/variablescpp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classescpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/classescpp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functionscpp.py" beforeDir="false" afterPath="$PROJECT_DIR$/functionscpp.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../ProgramData/Anaconda3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../foodchatbot" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.training">
@@ -187,7 +183,7 @@
       <workItem from="1636379716541" duration="5111000" />
       <workItem from="1637553125428" duration="837000" />
       <workItem from="1637553989013" duration="244000" />
-      <workItem from="1637615354146" duration="14385000" />
+      <workItem from="1637615354146" duration="14706000" />
     </task>
     <servers />
   </component>
@@ -210,6 +206,7 @@
     <SUITE FILE_PATH="coverage/voice_coding$main.coverage" NAME="main Coverage Results" MODIFIED="1636379946231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/voice_coding$test.coverage" NAME="test Coverage Results" MODIFIED="1637657182205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/voice_coding$gui.coverage" NAME="gui Coverage Results" MODIFIED="1637615450658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/voice_coding$training.coverage" NAME="training Coverage Results" MODIFIED="1637665253453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/voice_coding$record.coverage" NAME="record Coverage Results" MODIFIED="1636561904296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
