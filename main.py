@@ -24,11 +24,12 @@ import classescpp
 import objects
 import objectscpp
 
+eng = pyttsx3.init()
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
-model = load_model('food_chatbot.h5')
+model = load_model('voicecodingmodel.h5.h5')
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
@@ -65,13 +66,13 @@ def get_response(intents_list, intents_json):
                 break
     return result
 
-eng = pyttsx3.init()
+
 print("Welcome to Voice Coding!")
 eng.say("Welcome to Voice Coding!")
 eng.runAndWait()
 eng.say("Please Choose Your Programming Language")
 eng.runAndWait()
-langinp=int(input("1. Python\n2. C++"))
+langinp=1
 if langinp==1:
     print("Speak something to write your code in Python")
     eng.say("Speak to write your code in Python")
@@ -85,8 +86,8 @@ if langinp==1:
             check=variables.enter(msg)
         elif res == 'template':
             check=template.enter(msg)
-        elif res == 'functions':
-            check=functions.enter(msg)
+        #elif res == 'functions':
+            #check=functions.enter(msg)
         elif res == 'strings':
             check=functions.enter(msg)
         elif res == 'classes':
@@ -111,8 +112,8 @@ elif langinp==2:
             check=variablescpp.enter(msg)
         elif res == 'template':
             check=templatecpp.enter(msg)
-        elif res == 'functions':
-            check=functionscpp.enter(msg)
+        #elif res == 'functions':
+            #check=functionscpp.enter(msg)
         elif res == 'strings':
             check=stringcpp.enter(msg)
         elif res == 'classes':

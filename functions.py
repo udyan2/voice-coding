@@ -26,5 +26,4 @@ for element in variable_commands_list:
     else:
         print("Nothing related to function")
 print("Code Block: ")
-print(function_name)
 
